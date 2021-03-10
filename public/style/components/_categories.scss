@@ -1,0 +1,27 @@
+.component-categories {
+  background: #f4f4f4;
+  border-radius: 8px;
+  padding: 30px 30px 10px 30px;
+  margin-bottom: 20px;
+  transition: all 0.2s ease-in-out;
+
+  &:hover {
+    
+    text-decoration: none;
+    background: #6ba4c6;
+  }
+
+  &.active{
+    color: #fff;
+    background: #00b7e7;
+  }
+
+  .categories-text {
+    font-size: 18px;
+    text-align: center;
+    color: #0c0d36;
+    font-weight: normal;
+    margin-top: 12px;
+  }
+}
+
